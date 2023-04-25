@@ -3,7 +3,7 @@
 const equation = function(a,b) {
     let timesBY = a * b 
     let result = timesBY * 5
-    if (result > 20) {
+    if (result >= 20) {
         return result
     } else
     if (result < 20) {
@@ -11,4 +11,4 @@ const equation = function(a,b) {
     }
 }
 
-console.log(equation(1,1))
+console.log(equation(1,3))
